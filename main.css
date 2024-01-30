@@ -1,0 +1,19 @@
+body{
+    overflow:hidden;
+}
+
+#stage{
+    /*border: 1px dotted #000000;*/
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    background-position-x: 0;
+    background-position-y: 0;
+    overflow: hidden;
+}
+
+div {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10+ and Edge */
+    user-select: none; /* Standard syntax */
+}
